@@ -30,7 +30,7 @@ function render() {
   const sorted = getSorted(filtered);
   document.getElementById('product-count').textContent = `${sorted.length} produkter`;
   document.getElementById('grid').innerHTML = sorted.map(p => `
-    <a class="card" href="/product.html?id=${p.id}">
+    <a class="card" href="product.html?id=${p.id}">
       <div class="card-img">
         <img src="${p.image}" alt="${p.name}">
       </div>

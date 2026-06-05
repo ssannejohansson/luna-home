@@ -14,7 +14,7 @@ function render() {
       <ul class="order-items">
         <li class="cart-empty-msg">
           <p>Din lista är tom.</p>
-          <a href="/products.html">Utforska produkter</a>
+          <a href="products.html">Utforska produkter</a>
         </li>
       </ul>`;
     return;
@@ -24,11 +24,11 @@ function render() {
     <ul class="order-items wishlist-items" id="wishlist-items">
       ${list.map(item => `
         <li class="order-item wishlist-item" data-id="${item.id}">
-          <a class="order-item-img wishlist-item-img" href="/product.html?id=${item.id}">
+          <a class="order-item-img wishlist-item-img" href="product.html?id=${item.id}">
             <img src="${item.image}" alt="${item.name}">
           </a>
           <div class="order-item-info">
-            <a class="order-item-name" href="/product.html?id=${item.id}">${item.name}</a>
+            <a class="order-item-name" href="product.html?id=${item.id}">${item.name}</a>
             <span class="order-item-price">${item.price.toFixed(2)} kr</span>
           </div>
           <button type="button" class="btn-cart wishlist-add-btn" data-id="${item.id}">

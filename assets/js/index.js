@@ -10,7 +10,7 @@ const seen = new Set();
 const categories = products.filter(p => p.category && !seen.has(p.category) && seen.add(p.category));
 
 document.getElementById('category-cards').innerHTML = categories.map(p => `
-  <a class="cat-card" href="/products.html?category=${encodeURIComponent(p.category)}">
+  <a class="cat-card" href="products.html?category=${encodeURIComponent(p.category)}">
     <img src="${p.image}" alt="${p.category}">
     <div class="cat-card-overlay">
       <span>${p.category}</span>
@@ -20,7 +20,7 @@ document.getElementById('category-cards').innerHTML = categories.map(p => `
 
 // Nyheter grid
 document.getElementById('grid').innerHTML = products.slice(0, 4).map(p => `
-  <a class="card" href="/product.html?id=${p.id}">
+  <a class="card" href="product.html?id=${p.id}">
     <div class="card-img">
       <img src="${p.image}" alt="${p.name}">
     </div>

@@ -11,7 +11,7 @@ function renderOrderSummary() {
     document.getElementById('order-items').innerHTML = `
       <li class="cart-empty-msg">
         <p>Din varukorg är tom.</p>
-        <a href="/products.html">Fortsätt handla</a>
+        <a href="products.html">Fortsätt handla</a>
       </li>`;
     document.getElementById('subtotal').textContent = '0.00 kr';
     document.getElementById('total').textContent = '0.00 kr';
@@ -64,7 +64,7 @@ const allProducts = await fetchProducts();
 const cartIds = new Set(getCart().map(i => i.id));
 const upsell = allProducts.filter(p => !cartIds.has(p.id)).slice(0, 4);
 document.getElementById('upsell-grid').innerHTML = upsell.map(p => `
-  <a class="card" href="/product.html?id=${p.id}">
+  <a class="card" href="product.html?id=${p.id}">
     <div class="card-img">
       <img src="${p.image}" alt="${p.name}">
     </div>

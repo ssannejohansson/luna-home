@@ -35,7 +35,7 @@ document.getElementById('product-info').innerHTML = `
 
   <div class="product-actions">
     <button type="button" class="btn-cart" id="add-to-cart">LÄGG I VARUKORG</button>
-    <a class="btn-wishlist btn-go-cart" href="/checkout.html" id="go-to-cart" hidden>
+    <a class="btn-wishlist btn-go-cart" href="checkout.html" id="go-to-cart" hidden>
       <i class="fa-solid fa-bag-shopping" aria-hidden="true"></i>
       GÅ TILL KASSAN
     </a>
@@ -87,7 +87,7 @@ document.getElementById('save-to-list').addEventListener('click', () => {
 const all = await fetchProducts();
 const related = all.filter(r => r.id !== p.id).slice(0, 4);
 document.getElementById('related-grid').innerHTML = related.map(r => `
-  <a class="card" href="/product.html?id=${r.id}">
+  <a class="card" href="product.html?id=${r.id}">
     <div class="card-img">
       <img src="${r.image}" alt="${r.name}">
     </div>

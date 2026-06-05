@@ -1,7 +1,7 @@
 let _cache = null;
 
 async function loadAll() {
-  if (!_cache) _cache = await fetchJSON('/data/products.json');
+  if (!_cache) _cache = await fetchJSON('data/products.json');
   return _cache;
 }
 

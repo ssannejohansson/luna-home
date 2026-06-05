@@ -49,7 +49,7 @@ function renderResults(query) {
   }
 
   results.innerHTML = matches.map(p => `
-    <a class="search-result-item" href="/product.html?id=${p.id}">
+    <a class="search-result-item" href="product.html?id=${p.id}">
       <div class="search-result-img">
         <img src="${p.image}" alt="${p.name}">
       </div>
