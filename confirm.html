@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  
+  <title>LUNA HOME | Beställning bekräftad</title>
+  
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/ad5c36405b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav class="site-nav" aria-label="Huvudnavigation">
+    <a class="nav-logo" href="/">LUNA<span class="nav-logo-sub">HOME</span></a>
+    <ul class="nav-links">
+      <li><a href="/">Hem</a></li>
+      <li><a href="/products.html">Produkter</a></li>
+      <li><a href="/about.html">Om oss</a></li>
+      <li><a href="/contact.html">Kontakt</a></li>
+    </ul>
+    <div class="nav-icons">
+      <button type="button" aria-label="Sök">
+        <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+      </button>
+      <a href="/wishlist.html" aria-label="Min lista" class="wishlist-icon-btn">
+        <i class="fa-regular fa-heart" aria-hidden="true"></i>
+        <span id="wishlist-badge" class="cart-badge" hidden>0</span>
+      </a>
+      <a href="/checkout.html" aria-label="Varukorg" class="cart-icon-link">
+        <i class="fa-solid fa-bag-shopping" aria-hidden="true"></i>
+        <span id="cart-badge" class="cart-badge" hidden>0</span>
+      </a>
+    </div>
+    <button type="button" class="nav-hamburger" aria-label="Öppna meny" aria-expanded="false">
+      <i class="fa-solid fa-bars" aria-hidden="true"></i>
+    </button>
+  </nav>
+
+  <main>
+
+    <!-- CONFIRMATION -->
+    <section class="confirm-section">
+      <div class="confirm-card">
+        <div class="confirm-icon" aria-hidden="true">
+          <i class="fa-solid fa-check" aria-hidden="true"></i>
+        </div>
+        <span class="confirm-label">Beställning bekräftad</span>
+        <h1 class="confirm-heading" id="heading">Tack!</h1>
+        <p class="confirm-sub">Vi har tagit emot din beställning och skickar en bekräftelse till din e-post. Leverans
+          sker inom 1–3 vardagar.</p>
+        <div class="confirm-order-no">Ordernummer: <strong id="order-no"></strong></div>
+        <div class="confirm-actions">
+          <a href="/products.html" class="btn-cart">FORTSÄTT HANDLA</a>
+          <a href="/" class="btn-wishlist">Tillbaka till startsidan</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER BANNER -->
+    <section class="newsletter">
+      <div class="newsletter-inner">
+        <h2>Få 10% rabatt på ditt första köp</h2>
+        <p>Prenumerera på vårt nyhetsbrev och ta del av exklusiva erbjudanden.</p>
+        <form class="newsletter-form" onsubmit="return false;">
+          <input type="email" placeholder="Din e-postadress" aria-label="E-postadress">
+          <button type="submit">PRENUMERERA</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">LUNA<span class="footer-logo-sub">HOME</span></span>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>Navigering</h3>
+          <ul>
+            <li><a href="/">Hem</a></li>
+            <li><a href="/products.html">Produkter</a></li>
+            <li><a href="/about.html">Om oss</a></li>
+            <li><a href="/contact.html">Kontakt</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Information</h3>
+          <ul>
+            <li><a href="#">Frakt &amp; Retur</a></li>
+            <li><a href="#">Integritetspolicy</a></li>
+            <li><a href="#">Köpvillkor</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Kontakt</h3>
+          <ul>
+            <li><a href="mailto:info@luna.se">info@luna.se</a></li>
+            <li><a href="tel:+46701234567">+46 70 123 45 67</a></li>
+          </ul>
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+            <a href="#" aria-label="Pinterest"><i class="fa-brands fa-pinterest" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 LUNA. Alla rättigheter förbehållna.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="/assets/js/confirm.js"></script>
+  <script type="module" src="/assets/js/search.js"></script>
+  <script type="module" src="/assets/js/animations.js"></script>
+  <script type="module" src="/assets/js/nav.js"></script>
+</body>
+
+</html>

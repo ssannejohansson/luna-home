@@ -1,0 +1,210 @@
+[
+  {
+    "id": 2,
+    "name": "Skål",
+    "description": "Elegant skål i handgjord keramik med organisk form. Passar till frukost, snacks eller som dekorativt inslag på bordet.",
+    "price": 229,
+    "image": "/assets/images/skål.png",
+    "category": "Keramik"
+  },
+  {
+    "id": 3,
+    "name": "Skål II",
+    "description": "Djupare serveringsskål i handgjord keramik med rustik karaktär. Passar till sallad, pasta eller som fruktskål på köksbordet.",
+    "price": 259,
+    "image": "/assets/images/skål2.png",
+    "category": "Keramik"
+  },
+  {
+    "id": 4,
+    "name": "Tallrik",
+    "description": "Stengodstallrik med mjuk, naturlig glasyr. Varje exemplar är unikt tack vare det hantverksmässiga tillverkningen. Diskmaskinssäker.",
+    "price": 199,
+    "image": "/assets/images/tallrik.png",
+    "category": "Keramik"
+  },
+  {
+    "id": 5,
+    "name": "Tallrik II",
+    "description": "Djup tallrik i stengods med naturlig, oregelbunden glasyr. Fungerar lika bra som mattallrik som soppskål.",
+    "price": 219,
+    "image": "/assets/images/tallrik2.png",
+    "category": "Keramik"
+  },
+  {
+    "id": 6,
+    "name": "Kanna",
+    "description": "Keramikkanna med elegant halsdesign och bekvämt handtag. Använd den till vatten, juice eller som en vacker blomvas.",
+    "price": 349,
+    "image": "/assets/images/kanna.png",
+    "category": "Keramik"
+  },
+  {
+    "id": 7,
+    "name": "Vas",
+    "description": "Handformad keramikvas i organisk form med mjuk, matt glasyr. Vacker ensam eller fylld med torkade blommor och kvistar.",
+    "price": 395,
+    "image": "/assets/images/vas.png",
+    "category": "Keramik"
+  },
+  {
+    "id": 8,
+    "name": "Vas med hals",
+    "description": "Elegant vas med lång hals i stengods. Perfekt för en enkel blomstam eller som skulpturalt inslag i hemmet.",
+    "price": 449,
+    "image": "/assets/images/vas2.png",
+    "category": "Keramik"
+  },
+  {
+    "id": 9,
+    "name": "Bricka",
+    "description": "Handslipad bricka i ljust akaciaträ. Perfekt för att bära fram frukost, servera drycker eller som stilren dekoration.",
+    "price": 299,
+    "image": "/assets/images/bricka.png",
+    "category": "Kök"
+  },
+  {
+    "id": 10,
+    "name": "Skärbräda",
+    "description": "Kraftig skärbräda i massivt valnötsträ med naturlig oljefinish. Dubbelt användbar som bricka och skärbräda.",
+    "price": 449,
+    "image": "/assets/images/skärbräda.png",
+    "category": "Kök"
+  },
+  {
+    "id": 11,
+    "name": "Kökshanddukar",
+    "description": "Set om två handdukar i tvättat linne. Mjuka, absorberande och mer hållbara för varje tvätt. Passar lika bra i köket som i badrummet.",
+    "price": 259,
+    "image": "/assets/images/kökshanddukar.png",
+    "category": "Kök"
+  },
+  {
+    "id": 12,
+    "name": "Ljusstake",
+    "description": "Smal ljusstake i mörk metall med minimalistisk design. Passar kronljus och skapar ett varmt stämningsfullt ljussken.",
+    "price": 189,
+    "image": "/assets/images/ljusstake-1.png",
+    "category": "Ljus & Doft"
+  },
+  {
+    "id": 13,
+    "name": "Ljusstake med bas",
+    "description": "Ljusstake med bred, stabil bas i borstad mässing. Tidlös design som passar i alla hem, ensam eller i grupp.",
+    "price": 249,
+    "image": "/assets/images/ljusstake-2.png",
+    "category": "Ljus & Doft"
+  },
+  {
+    "id": 14,
+    "name": "Ljusstake Enkel",
+    "description": "Slank ljusstake i naturlig betong. Minimalistisk och tidlös, passar ett kronljus och ser vacker ut i grupp.",
+    "price": 169,
+    "image": "/assets/images/ljusstake.png",
+    "category": "Ljus & Doft"
+  },
+  {
+    "id": 15,
+    "name": "Ljusstake Liten",
+    "description": "Låg ljusstake i mässing med bred skål. Perfekt för värmeljus och skapar ett mjukt, inbjudande ljus.",
+    "price": 145,
+    "image": "/assets/images/ljusstake2.png",
+    "category": "Ljus & Doft"
+  },
+  {
+    "id": 16,
+    "name": "Ljusstake Hög",
+    "description": "Hög och smäcker ljusstake i svart metall. Ger dramatisk höjd och elegans till bordsdukningen eller hyllan.",
+    "price": 225,
+    "image": "/assets/images/ljusstake3.png",
+    "category": "Ljus & Doft"
+  },
+  {
+    "id": 17,
+    "name": "Ljusstake Rund",
+    "description": "Rund ljusstake i terrakotta med organisk handgjord form. Varm och jordnära känsla som passar i alla hem.",
+    "price": 195,
+    "image": "/assets/images/ljusstake4.png",
+    "category": "Ljus & Doft"
+  },
+  {
+    "id": 18,
+    "name": "Doftljus",
+    "description": "Handgjutet sojaljus i återanvändbar keramikkruka. Brinner upp till 45 timmar och fyller rummet med ett mjukt, naturligt doft.",
+    "price": 279,
+    "image": "/assets/images/doftljus.png",
+    "category": "Ljus & Doft"
+  },
+  {
+    "id": 19,
+    "name": "Doftljus Amber",
+    "description": "Varm och kryddig amberparfym med inslag av vanilj och mysk. Perfekt för höst- och vinterkväller. Brinntid ca 40 timmar.",
+    "price": 295,
+    "image": "/assets/images/doftljus-amber.png",
+    "category": "Ljus & Doft"
+  },
+  {
+    "id": 20,
+    "name": "Doftljus Lavendel",
+    "description": "Lugnande lavendelparfym med blommiga undertoner. Skapar en avslappnande atmosfär i sovrum eller badrum. Brinntid ca 40 timmar.",
+    "price": 295,
+    "image": "/assets/images/doftljus-lavendel.png",
+    "category": "Ljus & Doft"
+  },
+  {
+    "id": 21,
+    "name": "Doftljus Sandalwood",
+    "description": "Djup och trästig sandelträdsdoft med inslag av cedrar och patchouli. En tidlös, könsöverskridande doft för hela hemmet.",
+    "price": 295,
+    "image": "/assets/images/doftljus-sandalwood.png",
+    "category": "Ljus & Doft"
+  },
+  {
+    "id": 22,
+    "name": "Doftpinnar Amber",
+    "description": "Rörelsefria doftpinnar i amberparfym som kontinuerligt sprider doft i upp till 8 veckor. Inkluderar 8 rotangpinnar och 100 ml doftolja.",
+    "price": 329,
+    "image": "/assets/images/doftpinnar-amber.png",
+    "category": "Ljus & Doft"
+  },
+  {
+    "id": 23,
+    "name": "Doftpinnar Lavendel",
+    "description": "Lavendeldoftande rörelsepinnar som ger ett stadigt och stämningsfullt doft i ditt hem. Inkluderar 8 rotangpinnar och 100 ml doftolja.",
+    "price": 329,
+    "image": "/assets/images/doftpinnar-lavendel.png",
+    "category": "Ljus & Doft"
+  },
+  {
+    "id": 24,
+    "name": "Doftpinnar Sandalwood",
+    "description": "Sandelträdsparfym i klassisk diffusorform. Varm och träig doft som varar i upp till 8 veckor. Inkluderar 8 rotangpinnar och 100 ml doftolja.",
+    "price": 329,
+    "image": "/assets/images/doftpinnar-sandalwood.png",
+    "category": "Ljus & Doft"
+  },
+  {
+    "id": 25,
+    "name": "Rökelse",
+    "description": "Set med 20 handrullade rökelsepinnar i vald doft. Bränntid ca 45 minuter per pinne. Inkluderar keramikställ.",
+    "price": 149,
+    "image": "/assets/images/rökelse.png",
+    "category": "Ljus & Doft"
+  },
+  {
+    "id": 26,
+    "name": "Rumsspray",
+    "description": "Naturlig rumsspray på oljebas med långvarig doft. Sprayas i luften eller på textilier för ett omedelbart doftlyft.",
+    "price": 199,
+    "image": "/assets/images/rumsspray.png",
+    "category": "Ljus & Doft"
+  },
+  {
+    "id": 27,
+    "name": "Tändstickor",
+    "description": "Långa dekorativa tändstickor i en stilren ask. Perfekta för att tända ljus och doftpinnar, eller som present.",
+    "price": 89,
+    "image": "/assets/images/tändstickor.png",
+    "category": "Ljus & Doft"
+  }
+]
