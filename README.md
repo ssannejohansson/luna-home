@@ -1,6 +1,10 @@
 # LUNA HOME
 
+![LUNA HOME](readme-image.png)
+
 A static e-commerce webshop for home décor and lifestyle products. Built with vanilla HTML, CSS and JavaScript — no frameworks, no build step.
+
+> **Demo project** — this is a fictional store for portfolio purposes. No real products, purchases, or transactions.
 
 ## Pages
 
