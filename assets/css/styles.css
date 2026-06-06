@@ -327,7 +327,7 @@ body {
 .see-all {
     font-size: 0.75rem;
     letter-spacing: 0.08em;
-    color: var(--light-plum);
+    color: var(--plum);
     text-decoration: none;
     font-weight: 600;
 }
@@ -511,7 +511,7 @@ body {
 
 .newsletter p {
     font-size: 0.9rem;
-    color: var(--plum);
+    color: var(--black);
 }
 
 .newsletter-form {
@@ -2004,7 +2004,7 @@ body {
     text-align: center;
     padding: 1.25rem 2rem;
     font-size: 0.75rem;
-    color: #555;
+    color: #999;
 }
 
 @media (max-width: 900px) {
