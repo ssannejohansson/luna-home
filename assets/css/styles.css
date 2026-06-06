@@ -146,7 +146,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("/assets/images/hero.png") 50% 70% / cover no-repeat;
+    background: url("../images/hero.png") 50% 70% / cover no-repeat;
 }
 
 @media (max-width: 600px) {
@@ -1300,7 +1300,7 @@ body {
 
 .about-story-img {
     aspect-ratio: 4 / 5;
-    background-image: url("/assets/images/about-img.png");
+    background-image: url("../images/about-img.png");
     background-size: cover;
     background-position: center;
 }
